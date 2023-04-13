@@ -1,5 +1,6 @@
 # dynamodb-dio
-Desafio de projeto Boas práticas com DynamoDB realizado durante o Bootcamp Banco PAN Java Developer promovido pela DIO.
+Desafio de projeto Boas práticas com DynamoDB realizado durante o Bootcamp Banco PAN Java Developer promovido 
+pela [Digital Innovation One]("https://web.digitalinnovation.one/")💛🧡.
 
 ### Serviço utilizado
 - Amazon DynamoDB
@@ -118,3 +119,6 @@ aws dynamodb query \
     --index-name SongTitleYear-index \
     --key-condition-expression "SongTitle = :v_song and SongYear = :v_year" \
     --expression-attribute-values  '{":v_song":{"S":"Night Changes"},":v_year":{"S":"2014"} }'
+```
+
+Desenvolvido com ♥ por Gabriela Garcia.
