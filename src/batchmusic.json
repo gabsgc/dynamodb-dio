@@ -1,0 +1,58 @@
+{
+  "Music": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "One Direction"
+          },
+          "SongTitle": {
+            "S": "Night Changes"
+          },
+          "AlbumTitle": {
+            "S": "Four"
+          },
+          "SongYear": {
+            "S": "2014"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "One Direction"
+          },
+          "SongTitle": {
+            "S": "Fireproof"
+          },
+          "AlbumTitle": {
+            "S": "Four"
+          },
+          "SongYear": {
+            "S": "2014"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "One Direction"
+          },
+          "SongTitle": {
+            "S": "Where do Broken Hearts Go"
+          },
+          "AlbumTitle": {
+            "S": "Four"
+          },
+          "SongYear": {
+            "S": "2014"
+          }
+        }
+      }
+    }
+  ]
+}
